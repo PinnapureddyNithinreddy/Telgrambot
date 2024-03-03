@@ -8,5 +8,5 @@ def index():
 def run():
    app.run(host='0.0.0.0',port=8080)
 def Keep_alive():
-   t=Tread(target=run)
+   t=Thread(target=run)
    t.start()
