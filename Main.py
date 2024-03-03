@@ -8,7 +8,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.chrome.options import Options
-from Keep_alive from Keep_alive
+from Keep_alive import Keep_alive
 Keep_alive()
 
 # Create an event loop
